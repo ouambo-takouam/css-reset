@@ -26,7 +26,7 @@ svg {
   max-inline-size: 100%;
 }
 
-/* 6. Inherit fonts for form controls */
+/* 5. Inherit fonts for form controls */
 input,
 button,
 textarea,
@@ -34,7 +34,7 @@ select {
   font: inherit;
 }
 
-/* 7. Avoid text overflows */
+/* 6. Avoid text overflows */
 p,
 h1,
 h2,
@@ -45,7 +45,7 @@ h6 {
   overflow-wrap: break-word;
 }
 
-/* 8. Improve line wrapping */
+/* 7. Improve line wrapping */
 p {
   text-wrap: pretty;
 }
@@ -58,9 +58,7 @@ h6 {
   text-wrap: balance;
 }
 
-/*
-  9. Create a root stacking context
-*/
+/* 7. Create a root stacking context */
 #root,
 #__next {
   isolation: isolate;
